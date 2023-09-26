@@ -1,0 +1,46 @@
+@media screen and (max-width: 1289) {
+  #slider {
+    padding: 0px 5px;
+  }
+}
+@media screen and (min-width: 1290px) {
+  /* CSS styles to apply when the viewport width is between 769px and 1024px */
+  #slider{
+    padding:0px 80px;
+  }
+}
+
+@media screen and (max-width: 1023) {
+  #slider1 {
+    padding-right:400px;
+  }
+}
+
+@media screen and(min-width:1024) and (max-width: 1289px) {
+  #slider1 {
+    padding-right:50px;
+  }
+}
+@media screen and (min-width: 1290px) {
+  /* CSS styles to apply when the viewport width is between 769px and 1024px */
+  #slider1{
+    padding-right: 190px;
+  }
+}
+@media screen and (max-width: 1023) {
+  #slider2 {
+    padding-left:20px;
+  }
+}
+
+@media screen and(min-width:1024) and (max-width: 1289px) {
+  #slider2 {
+    padding-left:50px;
+  }
+}
+@media screen and (min-width: 1290px) {
+  /* CSS styles to apply when the viewport width is between 769px and 1024px */
+  #slider2{
+    padding-left: 190px;
+  }
+}

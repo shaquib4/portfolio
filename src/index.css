@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider{
+  padding-left: 200px;
+}
+.slick-prev{
+    left: 1% !important;
+    z-index: 1;
+}
+
+.slick-next{
+    right: 1% !important;
+    z-index: 1;
+}
+ 
+
+
+.slick-slide div {
+  width: 288px;
+  margin: auto;
+}
+
+/* Center slides horizontally in React Slick */
+
+
+
+
+
