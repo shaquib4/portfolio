@@ -306,7 +306,7 @@ const WorkSection = () => {
           </div>
           <div className="flex flex-col gap-3 w-full  lg:w-2/5 px-12 lg:px-4 justify-center ">
             <div className="flex flex-col justify-end">
-              <img className="h-32 w-32 animate-pulse" src={dummy} alt="" />
+              <img className="h-32 w-32 animate-bounce" src={dummy} alt="" />
               <h1 className=" hidden sm:hidden md:block md:text-3xl lg:text-3xl text-gray-200 font-bold pt-12 ">
                 Full-Stack Development
               </h1>
@@ -326,7 +326,7 @@ const WorkSection = () => {
         <div className="flex flex-col  lg:flex-row   md:mt-10 md:px-20 lg:pr-24 ">
           <div className="flex flex-col gap-3 w-full  lg:w-2/5 px-12 lg:px-4 justify-center ">
             <div className="flex flex-col justify-end ">
-              <img className="h-42 w-64 animate-pulse" src={flutter} alt="" />
+              <img className="h-42 w-64 animate-bounce" src={flutter} alt="" />
               <h1 className=" hidden sm:hidden md:block md:text-3xl lg:text-3xl text-gray-200 font-bold pt-12">
                 Flutter Development
               </h1>
