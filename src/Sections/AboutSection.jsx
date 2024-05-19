@@ -10,28 +10,22 @@ import {
 import { MdEmail } from "react-icons/md";
 
 const AboutSection = () => {
-      const [revealText, setRevealText] = useState(false);
+  const [revealText, setRevealText] = useState(false);
 
-      useEffect(() => {
-        const delayTimer = setTimeout(() => {
-          setRevealText(true);
-        }, 1000);
+  useEffect(() => {
+    const delayTimer = setTimeout(() => {
+      setRevealText(true);
+    }, 1000);
 
-        return () => clearTimeout(delayTimer);
-      }, [1000]);
+    return () => clearTimeout(delayTimer);
+  }, [1000]);
   return (
     <>
       <div className="w-full h-full flex flex-col">
         <div className="flex-1 w-full  bg-[#333646]">
           <div className="sm:flex-col md:flex  md:flex-row h-full w-full ">
             <div className="relative flex-1">
-              <div className="h-full w-full flex flex-col justify-end">
-                <img
-                  className=" h-2/5 md:h-3/5 lg:h-full object-cover"
-                  src={dummy}
-                  alt="dummy"
-                />
-              </div>
+              <div className="h-full w-full flex flex-col justify-end"></div>
 
               <div className="absolute top-16 md:top-20 lg:top-36  ml-6 md:ml-20">
                 <TextReveal text={"Mohd"} />
@@ -45,21 +39,21 @@ const AboutSection = () => {
                   <h1 className="text-gray-400 text-lg md:text-2xl font-medium hover:text-orange-400 hover:cursor-pointer">
                     About
                   </h1>
-                  <h1 className="text-gray-400 text-lg md:text-2xl font-medium hover:text-orange-400 hover:cursor-pointer">
+                  {/* <h1 className="text-gray-400 text-lg md:text-2xl font-medium hover:text-orange-400 hover:cursor-pointer">
                     Services
                   </h1>
                   <h1 className="text-gray-400 text-lg md:text-2xl font-medium hover:text-orange-400 hover:cursor-pointer">
                     Works
-                  </h1>
+                  </h1> */}
                 </div>
 
-                <div className="flex flex-col mt-10 md:mt-20">
+                <div className="flex flex-col mt-10 md:mt-10">
                   <h1 className="font-medium text-gray-300 text-[18px]">
                     --INRODUCTION
                   </h1>
                   <h1 className="mt-2 font-semibold text-white text-xl md:text-2xl">
-                    Software Developer , Based <br />
-                    in India
+                    Software Developer , TCS <br />
+                    Delhi ,India
                   </h1>
                   <div className="flex flex-row justify-center">
                     <p className="text-sm md:text-base  mt-4 text-gray-400 font-medium text-justify">
